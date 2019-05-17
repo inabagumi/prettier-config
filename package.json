@@ -7,6 +7,7 @@
   "homepage": "https://github.com/inabagumi/prettier-config",
   "license": "MIT",
   "main": "index.json",
+  "name": "@inabagumi/prettier-config",
   "prettier": "./index.json",
   "repository": {
     "type": "git",
