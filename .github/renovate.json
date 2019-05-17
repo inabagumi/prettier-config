@@ -1,0 +1,7 @@
+{
+  "extends": ["@inabagumi"],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  }
+}
