@@ -1,0 +1,19 @@
+{
+  "author": "Haneru Developers",
+  "description": "A Prettier config for the Haneru Developers.",
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  },
+  "homepage": "https://github.com/inabagumi/prettier-config",
+  "license": "MIT",
+  "main": "index.json",
+  "prettier": "./index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inabagumi/prettier-config.git"
+  },
+  "scripts": {
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{json,md}\""
+  },
+  "version": "1.0.0"
+}
