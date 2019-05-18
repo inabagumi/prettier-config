@@ -19,3 +19,7 @@ Edit `package.json`:
     // ...
 }
 ```
+
+## License
+
+[MIT](LICENSE)
