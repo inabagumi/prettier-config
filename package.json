@@ -1,5 +1,9 @@
 {
   "author": "Haneru Developers",
+  "bugs": {
+    "url": "https://github.com/inabagumi/eslint-config/issues"
+  },
+  "dependencies": {},
   "description": "A Prettier config for the Haneru Developers.",
   "devDependencies": {
     "prettier": "^1.18.2"
