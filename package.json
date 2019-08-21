@@ -19,8 +19,8 @@
     "url": "git+https://github.com/inabagumi/prettier-config.git"
   },
   "scripts": {
-    "format": "prettier --ignore-path .gitignore --write \"**/*.{json,md}\"",
-    "format-check": "prettier --ignore-path .gitignore --check \"**/*.{json,md}\"",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.json\"",
+    "format-check": "prettier --ignore-path .gitignore --check \"**/*.json\"",
     "release": "standard-version"
   },
   "version": "1.1.0"
