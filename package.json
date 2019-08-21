@@ -6,7 +6,8 @@
   "dependencies": {},
   "description": "A Prettier config for the Haneru Developers.",
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "standard-version": "^7.0.0"
   },
   "homepage": "https://github.com/inabagumi/prettier-config",
   "license": "MIT",
@@ -19,7 +20,8 @@
   },
   "scripts": {
     "format": "prettier --ignore-path .gitignore --write \"**/*.{json,md}\"",
-    "format-check": "prettier --ignore-path .gitignore --check \"**/*.{json,md}\""
+    "format-check": "prettier --ignore-path .gitignore --check \"**/*.{json,md}\"",
+    "release": "standard-version"
   },
   "version": "1.0.0"
 }
