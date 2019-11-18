@@ -7,7 +7,7 @@
   "description": "A Prettier config for the Haneru Developers.",
   "devDependencies": {
     "prettier": "^1.19.1",
-    "standard-version": "^7.0.0"
+    "standard-version": "^7.0.1"
   },
   "homepage": "https://github.com/inabagumi/prettier-config",
   "license": "MIT",
