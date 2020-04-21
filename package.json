@@ -6,7 +6,7 @@
   "dependencies": {},
   "description": "A Prettier config for the Haneru Developers.",
   "devDependencies": {
-    "prettier": "^2.0.4",
+    "prettier": "^2.0.5",
     "standard-version": "^7.1.0"
   },
   "homepage": "https://github.com/inabagumi/prettier-config",
