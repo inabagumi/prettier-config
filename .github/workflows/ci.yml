@@ -21,3 +21,5 @@ jobs:
           node-version: 12
       - run: yarn install --frozen-lockfile
       - run: yarn format-check
+      - run: curl -sSL https://json.schemastore.org/prettierrc > schema.json
+      - run: yarn validate

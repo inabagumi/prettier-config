@@ -6,6 +6,7 @@
   "dependencies": {},
   "description": "A Prettier config for the Haneru Developers.",
   "devDependencies": {
+    "ajv-cli": "^3.3.0",
     "prettier": "^2.1.2",
     "standard-version": "^9.0.0"
   },
@@ -24,7 +25,8 @@
   "scripts": {
     "format": "prettier --ignore-path .gitignore --write \"**/*.json\"",
     "format-check": "prettier --ignore-path .gitignore --check \"**/*.json\"",
-    "release": "standard-version"
+    "release": "standard-version",
+    "validate": "ajv validate -d index.json -s schema.json"
   },
   "version": "1.1.2"
 }
