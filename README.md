@@ -12,7 +12,7 @@ $ yarn add -D @inabagumi/prettier-config
 
 Edit `package.json`:
 
-```json
+```json5
 {
     // ...
     "prettier": "@inabagumi/prettier-config"
