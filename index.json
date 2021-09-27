@@ -1,9 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/prettierrc.json",
   "arrowParens": "always",
+  "bracketSameLine": false,
   "bracketSpacing": true,
   "endOfLine": "lf",
-  "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "quoteProps": "as-needed",
   "semi": false,

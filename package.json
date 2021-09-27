@@ -14,6 +14,9 @@
   "license": "MIT",
   "main": "index.json",
   "name": "@inabagumi/prettier-config",
+  "peerDependencies": {
+    "prettier": ">= 2.4.0"
+  },
   "prettier": "./index.json",
   "repository": {
     "type": "git",
