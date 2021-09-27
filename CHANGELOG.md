@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://www.github.com/inabagumi/prettier-config/compare/v1.1.3...v2.0.0) (2021-09-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* jsxBracketSameLine has been deprecated since Prettier 2.4.
+
+### Bug Fixes
+
+* replace to bracketSameLine ([#157](https://www.github.com/inabagumi/prettier-config/issues/157)) ([9093f06](https://www.github.com/inabagumi/prettier-config/commit/9093f06fca9d186096a249a9d2a5a7685e853a6f))
+
 ### [1.1.3](https://www.github.com/inabagumi/prettier-config/compare/v1.1.2...v1.1.3) (2021-05-14)
 
 
