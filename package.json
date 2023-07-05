@@ -6,7 +6,7 @@
   "dependencies": {},
   "description": "A Prettier config for the Haneru Developers.",
   "devDependencies": {
-    "ajv-cli": "^3.3.0",
+    "ajv-cli": "^5.0.0",
     "prettier": "~3.0.0",
     "standard-version": "^9.3.2"
   },
