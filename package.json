@@ -7,7 +7,7 @@
   "description": "A Prettier config for the Haneru Developers.",
   "devDependencies": {
     "ajv-cli": "^3.3.0",
-    "prettier": "~2.8.8",
+    "prettier": "~3.0.0",
     "standard-version": "^9.3.2"
   },
   "homepage": "https://github.com/inabagumi/prettier-config",
