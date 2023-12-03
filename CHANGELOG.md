@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.1](https://github.com/inabagumi/prettier-config/compare/v2.0.0...v2.0.1) (2023-12-03)
+
+
+### Bug Fixes
+
+* **release-please:** change secret env key prefix to `RELEASE_PLEASE_` ([#268](https://github.com/inabagumi/prettier-config/issues/268)) ([ed43124](https://github.com/inabagumi/prettier-config/commit/ed431241bfdb9912d6130b5509e0b34c3ff6829f))
+* **release-please:** remove legacy property ([#266](https://github.com/inabagumi/prettier-config/issues/266)) ([89e396c](https://github.com/inabagumi/prettier-config/commit/89e396c36bf39564cea1d83764ac7f2726fab4bf))
+
 ## [2.0.0](https://www.github.com/inabagumi/prettier-config/compare/v1.1.3...v2.0.0) (2021-09-27)
 
 
