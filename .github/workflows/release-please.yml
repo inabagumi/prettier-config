@@ -21,13 +21,16 @@ jobs:
           token: ${{ steps.generate_token.outputs.token }}
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
+      - run: corepack enable
+        if: ${{ steps.release.outputs.release_created }}
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
         if: ${{ steps.release.outputs.release_created }}
-      - run: yarn install --frozen-lockfile
-      - run: npm publish
+      - run: pnpm install --frozen-lockfile
+        if: ${{ steps.release.outputs.release_created }}
+      - run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
         if: ${{ steps.release.outputs.release_created }}
