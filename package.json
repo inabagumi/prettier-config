@@ -31,5 +31,5 @@
     "release": "standard-version",
     "validate": "ajv validate -d index.json -s schema.json"
   },
-  "version": "2.0.0"
+  "version": "2.0.1"
 }
