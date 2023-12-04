@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.2](https://github.com/inabagumi/prettier-config/compare/v2.0.1...v2.0.2) (2023-12-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ajv-cli to v5 ([#270](https://github.com/inabagumi/prettier-config/issues/270)) ([77446f2](https://github.com/inabagumi/prettier-config/commit/77446f2f9374d0199cb5e6f4808bb7983f524605))
+
 ## [2.0.1](https://github.com/inabagumi/prettier-config/compare/v2.0.0...v2.0.1) (2023-12-03)
 
 
