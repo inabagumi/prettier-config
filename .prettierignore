@@ -132,3 +132,6 @@ dist
 # schema
 /legacy-schema.json
 /schema.json
+
+# changelog
+/CHANGELOG.md

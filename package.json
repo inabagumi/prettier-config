@@ -6,7 +6,7 @@
   "dependencies": {},
   "description": "A Prettier config for the Haneru Developers.",
   "devDependencies": {
-    "ajv-cli": "^3.3.0",
+    "ajv-cli": "^5.0.0",
     "prettier": "~3.1.0",
     "standard-version": "^9.3.2"
   },
@@ -22,12 +22,11 @@
     "type": "git",
     "url": "git+https://github.com/inabagumi/prettier-config.git"
   },
-  "resolutions": {
-    "minimist": "^1.2.8"
-  },
   "scripts": {
-    "format": "prettier --ignore-path .gitignore --write \"**/*.json\"",
-    "format-check": "prettier --ignore-path .gitignore --check \"**/*.json\"",
+    "fetch-schema": "curl -sSL https://json.schemastore.org/prettierrc > legacy-schema.json",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "migrate-schema": "ajv migrate --spec=draft7 -o schema.json -s legacy-schema.json",
     "release": "standard-version",
     "validate": "ajv validate -d index.json -s schema.json"
   },
