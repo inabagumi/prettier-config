@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/inabagumi/prettier-config/compare/v2.0.2...v3.0.0) (2024-03-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* change to esm ([#295](https://github.com/inabagumi/prettier-config/issues/295))
+
+### Features
+
+* change to esm ([#295](https://github.com/inabagumi/prettier-config/issues/295)) ([c5ca43f](https://github.com/inabagumi/prettier-config/commit/c5ca43fc9c68d822dab4cf99791dd40e6272d91d))
+
 ## [2.0.2](https://github.com/inabagumi/prettier-config/compare/v2.0.1...v2.0.2) (2023-12-04)
 
 
