@@ -12,24 +12,23 @@
   },
   "homepage": "https://github.com/inabagumi/prettier-config",
   "license": "MIT",
-  "main": "index.json",
+  "main": "index.js",
   "name": "@inabagumi/prettier-config",
   "packageManager": "pnpm@8.15.4",
   "peerDependencies": {
     "prettier": ">= 2.4.0"
   },
-  "prettier": "./index.json",
+  "prettier": "./index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/inabagumi/prettier-config.git"
   },
   "scripts": {
-    "fetch-schema": "curl -sSL https://json.schemastore.org/prettierrc > legacy-schema.json",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
-    "migrate-schema": "ajv migrate --spec=draft7 -o schema.json -s legacy-schema.json",
-    "release": "standard-version",
-    "validate": "ajv validate -d index.json -s schema.json"
+    "release": "standard-version"
   },
+  "type": "module",
+  "types": "index.d.ts",
   "version": "2.0.2"
 }

@@ -21,4 +21,3 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm format-check
-      - run: pnpm fetch-schema && pnpm migrate-schema && pnpm validate
