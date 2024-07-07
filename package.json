@@ -14,7 +14,7 @@
   "license": "MIT",
   "main": "index.js",
   "name": "@inabagumi/prettier-config",
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@9.5.0",
   "peerDependencies": {
     "prettier": ">= 2.4.0"
   },
