@@ -12,7 +12,7 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
       prettier:
-        specifier: ~3.7.0
+        specifier: ~3.7.1
         version: 3.7.1
       standard-version:
         specifier: ^9.3.2
